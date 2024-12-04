@@ -1,0 +1,17 @@
+CREATE SCHEMA pastaNyck;
+
+CREATE TABLE pastaNyck.usuario(
+CPF BIGINT,
+primeiroNome VARCHAR(30),
+segundoNome VARCHAR(50),
+data_nascimento DATE,
+email VARCHAR,
+telefone VARCHAR
+  	
+);
+
+
+INSERT INTO pastaNyck.usuario VALUES(123, 'Ricardo', 'Jeradi', '2024-12-04','ricardo@jeradi.com', NULL);
+
+SELECT * 
+FROM pastaNyck.usuario;
